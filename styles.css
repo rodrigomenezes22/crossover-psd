@@ -122,7 +122,22 @@ button{
     justify-content: center;
 }
 
+/* Aroj CSS*/
 
+.carousel-item {
+    height: 32rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    padding-top: 16rem;
+}
+
+.carousel-caption {
+    font-size: 1rem;
+}
 
 @media (max-width:700px){
     .nav__menu--left{
@@ -162,6 +177,21 @@ button{
        
         text-decoration: none;
     
+    }
+
+    .carousel-item {
+        height: 20rem;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .carousel-control-prev, .carousel-control-next {
+        position: absolute;
+        padding-top: 10rem;
+    }
+
+    .carousel-caption {
+        font-size: 0.8rem;
     }
 }
 #logos {
