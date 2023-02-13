@@ -328,5 +328,10 @@ button{
 }
 #footer .gigi-footer{
     color:white;
-/* end css footer */
 }
+
+#footer .gigi-footer2{
+        background-color: #262520;
+        color:white;
+}
+/* end css footer */
