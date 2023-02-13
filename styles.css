@@ -253,3 +253,20 @@ button{
   opacity: 0.7;
 }
 
+.i_par {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8rem; 
+}
+
+.i_arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 35px solid #eeeeee;
+  }
+
+.col {
+    display: flex;
+    justify-content: center;
+}
