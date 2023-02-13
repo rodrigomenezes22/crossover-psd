@@ -296,6 +296,10 @@ button{
     border-bottom: 35px solid #eeeeee;
   }
 
+#icons-section {
+    padding-top: 5rem;
+}
+
 .col {
     display: flex;
     justify-content: center;
@@ -310,3 +314,4 @@ button{
 #footer .gigi-footer{
     color:white;
 /* end css footer */
+}
