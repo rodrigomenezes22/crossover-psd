@@ -12,9 +12,10 @@
 
 
 body {
-    background: rgb(255, 255, 255);
-}
 
+    background: rgb(255, 255, 255);
+
+}
 
 
 
@@ -164,4 +165,67 @@ button{
         text-decoration: none;
     
     }
+}
+#logos {
+    width: 100%;
+}
+
+#logos .logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+#logos .logo-wrapper img {
+    opacity: .5;
+    transition: opacity .7s;
+}
+
+#logos .logo-wrapper img:hover {
+    opacity: 1;
+}
+
+#pictures {
+    background-color: #eeeeee;
+    width: 100%;
+    padding: 2rem 0px 0px;
+}
+
+#pictures .card {
+    border-radius: 0px;
+    background-color: transparent;
+    margin-bottom: 2rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+#pictures .card img {
+    transition: transform .7s;
+}
+
+#pictures .card img:hover {
+    transform: scale(1.05);
+}
+
+
+
+#pictures .card-title {
+    color: #717070;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+#pictures .card-text {
+    color: #717070;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8rem; 
+}
+
+#pictures .news-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
