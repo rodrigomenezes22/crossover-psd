@@ -270,3 +270,13 @@ button{
     display: flex;
     justify-content: center;
 }
+
+/* css footer */
+
+#footer {
+    background-color: #4a504f;
+    color: white;
+}
+#footer .gigi-footer{
+    color:white;
+/* end css footer */
