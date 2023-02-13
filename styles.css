@@ -11,5 +11,14 @@
 
 
 body {
-    background: red;
+    background: white;
 }
+
+.i_transform {
+    text-transform: uppercase;
+}
+
+.i_sec {
+padding-top: 3rem;
+}
+
